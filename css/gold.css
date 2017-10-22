@@ -1,0 +1,81 @@
+body,html{font: 12px/1.5 Tahoma;font-family: "microsoft yahei",Arial;}
+#nav{border-bottom:1px solid #f1f1f1; }
+/*新闻*/
+.newscn{width:100%;height:320px;background:url(../img/banner1.jpg);margin-top:100px}
+	#gold-right{overflow:hidden;width:20%;max-width:220px;float:left}
+		.gold-web{height:120px;background:#0083C7;color:#ffffff;text-align:center;overflow:hidden;}
+			.gold-web h2{font-weight:normal;font-size:22px;margin-top:29px;}
+			.gold-web p{margin:15px 0;font-size:17px;}
+		.goldf{padding:0 10px 20px;border:1px solid #e6e6e6;margin-top:15px;color:#666666;overflow:hidden;text-align:center}
+			.goldf h2{overflow:hidden;background:url(../img/zi_dian.png) no-repeat left center;background-size:48px;padding-left:30px;font-weight:normal;text-align:center;margin-left:4%;}
+				.goldf h2 em{display:block;font-style:normal;font-size:18px;color:#195CAA;}
+				.goldf h2 span{display:block;font-size:12px;margin:10px 0}
+			.goldf p{font-size:14px;overflow:hidden;padding:10px;border-bottom:1px dashed #dfdfdf;width:90%;word-wrap: break-word;margin:0 auto}
+	#gold-left{float:right;max-width:850px;width:75%;}
+		#gold-left .newhead{width:100%;border-bottom:1px solid #e6e6e6;overflow:hidden;padding-bottom:10px;margin-top:30px}
+			.newhead h3{color:#1f1f1f;float:left;margin-left:10px;font-size:22px;}
+			.newhead p{color:#6e6e6e;font-size:12px;float:right;margin:17px 10px 0 0}
+				.newhead p a{color:#6e6e6e;}
+					.newhead p a:hover{color:#0083C7}
+		.list-item{width:100%;border: 1px solid #E3E3E3;border-radius: 5px;margin-bottom: 25px;padding:20px;}
+		#news span{float:right;color:#666666;dispaly:block;font-size:12px;}
+	.box{width:100%;margin-top:30px}
+.jpage-relative{position: relative;}
+		#news a{display:block;}
+			#news a:hover h2{color:#195CAA}
+		#news h2{font-size:16px;margin:0 0 20px 20px;color: #000000;}
+		#news p{color:#333333;text-indent:2em}
+		.jpage-pagination{margin-top:40px;overflow:hidden;}
+			.jpage-pagination li{float: left;background: #fff;border: 1px solid #E3E3E3;border-radius: 2px;padding: 5px 15px;margin-right: 5px;color: #0381BB;cursor: pointer;}
+				.jpage-pagination li:hover{background: #E2E2E2;border: 1px solid #aaa;outline: 1px solid #fff;font-weight: bold;}
+				.jpage-pagination .active,.jpage-pagination .active:hover{border: 1px solid #FCB6A1;color: #F03800;background: #fff;}
+.newcona,.produce,.approve{width:100%;overflow:hidden;margin:30px 0;text-align:center}
+	.newcona h2{color: #333333;font-size: 20px;line-height: 30px;font-weight:normal}
+	.newcona span{display:block;font-size: 12px;color: #ababab;height: 24px;line-height: 24px;overflow: hidden;width: 100%;margin: 10px 0px 20px;border-bottom:1px dashed #dfdfdf;padding-bottom:50px;}
+		.newcona span em{font-style:normal}
+	.newcona p{color: #666666;font-size: 13px;line-height: 24px;margin-bottom:40px;text-align:left;}
+	.newcona img{width:70%;max-width:520px;margin-bottom:40px}
+	
+/*联系我们*/
+.contact{width:80%;margin:40px auto;overflow:hidden;background:url(../img/messagr_bg.png) no-repeat top left;background-size:100% 5px;padding-top:20px;text-align:center}
+	.contact p{font-size: 14px;color: #000000;margin: 20px auto;line-height: 18px;height: 36px;overflow: hidden;word-wrap: break-word;word-break: break-all;}
+	.contact div{overflow:hidden;width:100%;margin:0 auto;max-width:470px;}
+		.contact input{width:100%; display:block;max-width:370px;padding:12px 50px;border: 1px solid #dcdcdc;border-radius: 5px;color:#413E3E;font-size: 12px;margin:0 auto 15px;}
+		.con1{background:url(../img/name.png) 10px center no-repeat;background-size:20px auot}
+		.con2{background:url(../img/dian_b.png) 10px center no-repeat;background-size:20px auot}
+		.con3{background:url(../img/email.png) 10px center no-repeat;background-size:20px auot}
+		.contact textarea{width:100%;max-width:450px;height:100px;border: 1px solid #dcdcdc;border-radius: 5px;margin: 10px auto 20px;color:#413E3E;padding: 5px 6px;resize: none;outline: none;font-family: arial;font-size:14px;}
+	.contact button{width:150px;font-size:16px;line-height:40px;background:#195CAA;color:#ffffff;border:none;margin-top:20px}
+		.contact button:hover{background:#117EFC;text-decoration:underline}
+/*产品简介*/
+.prodb{width:100%;overflow:hidden;margin-bottom:60px}
+	.prodb h2{font-size: 24px;color: #000;margin-bottom:25px;text-align: center;width: 100%;overflow: hidden;font-weight:normal}	
+	.prodb div{background: #0083c7;color: #fff;font-size: 22px;font-weight: 700;line-height: 45px;text-align: center;padding: 0px 10px;overflow: hidden;margin: 10px 0px 15px;width: 100%;border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
+	.prodb p,.prodf p{line-height: 23px;color: #666;font-size: 14px;width: 100%;margin: auto;text-align:left;margin-bottom:30px;}
+		.prodb span{font-size:20px; color:#0099CC;margin-right:10px}
+	.prodb img{width:100%;height:auto;margin-top:20px}
+.prodf{width:100%;text-align:center;overflow:hidden;margin-bottom:60px}
+	.prodf h2,#menu_con h2{font-size:22px;font-weight:normal;color:#333333;padding-bottom:25px;margin:0}
+	.prodf span,#menu_con span{display:block;width:150px;height:5px;margin:0 auto 40px}
+	.prodcy h2{border-bottom:1px solid #0099CC;}
+	.prodcy span{background:#0099cc;}
+	.prodf img{width:100%;margin:20px 0;max-width:650px;}
+	.prodf p{color: #333333;max-width:650px;text-align:center;margin:20px auto}
+	.prodcu h2{border-bottom:1px solid #0cc322;}
+	.prodcu span{background:#0cc322;}
+/*认证服务商*/
+#appnav{overflow:hidden;width:100%;}
+.approve li{width:20%;float:left;padding:13px 13px}
+	.approve li a{width:100%;display:block;color:#ffffff;background:#0a96fe;text-align:center;padding:20px 0}
+		.approve a p{font-size:16px;margin:0;line-height:25px;padding:0 10px}
+		.approve a span{display:block;padding:0 10px;}
+	.selected{box-shadow:0 1px 11px 1px #7C7E81;font-weight:bold;text-decoration:underline}
+.approve div img{width:100%;max-width:680px;margin:40px 0}
+#menu_con div{padding-top:70px}
+#menu_con div h2{text-align:left;font-size:18px;color:#000000;border-bottom:1px solid #195CAA;}
+#menu_con div span{margin-left:0;background:#195CAA;}
+#menu_con div em{color:#195CAA;font-style:normal;font-size:20px;font-weight:bold;padding:0 2px}
+@media (max-width:840px){
+#gold-right{display:none}
+#gold-left{float:none;max-width:100%;width:100%;}
+}
